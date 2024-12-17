@@ -14,7 +14,7 @@ public class Triple1 {
         int taget = sc.nextInt();
         int cnt = 0;
         int max = -999999;
-        for(int i = 2; i < row; i++){
+        for(int i = 0; i < row; i++){
             for(int j = 0; j < col; j++){
                 if(arr[i][j] == taget){
                     cnt++;
@@ -33,6 +33,7 @@ public class Triple1 {
                 System.out.print(i + 1 + " ");
             }
             max = -999999;
+            cnt = 0;
         }
     }
 }
